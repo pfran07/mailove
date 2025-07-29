@@ -6,14 +6,14 @@ yesBtn.addEventListener('click', () => {
 });
 
 let noTexts = [
-  "¿Estás seguro? 🥺",
+  "Seguro mai love 🥺",
   "Piénsalo bien 😢",
-  "No seas malo 😭",
+  "No seas malo puto 😭",
   "Te doy sushi 🍣",
   "Y flores 🌹",
-  "Di que sí 😞",
+  "Solo di que sí 😞",
   "Por favor... 😞😞😞",
-  "OK, ahora estás obligado 😈"
+  "Muajaja ahora estás obligado 😈"
 ];
 
 let count = 0;

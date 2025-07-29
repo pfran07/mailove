@@ -1,0 +1,10 @@
+body {
+  background-color: #ffccff;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  text-align: center;
+  padding: 50px;
+}
+
+.message {
+  color: #ff1493;
+}

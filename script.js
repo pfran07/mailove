@@ -1,7 +1,11 @@
 const yesBtn = document.getElementById('yesBtn');
 const noBtn = document.getElementById('noBtn');
 
-yesBtn.style.transition = "transform 0.2s ease";
+// Activamos transición suave
+yesBtn.style.transition = "transform 0.5s ease";
+
+// Escala inicial
+let scale = 1;
 
 yesBtn.addEventListener('click', () => {
   window.location.href = "yes_page.html";
@@ -23,7 +27,10 @@ let count = 0;
 noBtn.addEventListener('click', () => {
   noBtn.innerText = noTexts[count % noTexts.length];
   count++;
-  yesBtn.style.transform = `scale(${1 + count * 0.2})`;
-});
 
-  
+  // Aumentamos escala en saltos grandes
+  scale += 0.7;
+
+  // Aplicamos la transformación
+  yesBtn.style.transform = `scale(${scale})`;
+});

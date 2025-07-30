@@ -2,22 +2,30 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Bold Text Example</title>
+  <title>Bold Text Page</title>
   <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+
     body {
       background-color: #3BBEE3;
       font-family: 'Comic Sans MS', sans-serif;
-      font-weight: bold; /* Negrita aplicada */
+      font-weight: bold;
+      display: flex;
+      justify-content: center; /* Centra horizontalmente */
+      align-items: center;    /* Centra verticalmente */
       text-align: center;
-      padding: 250px;
     }
 
     .message {
       color: #1C43BA;
+      font-size: 2em;
     }
   </style>
 </head>
 <body>
-  <p class="message">This text is <strong>bold</strong> and blue!</p>
+  <p class="message">This is <strong>bold</strong> blue text!</p>
 </body>
 </html>

@@ -29,7 +29,7 @@ noBtn.addEventListener('click', () => {
   count++;
 
   // Aumentamos escala en saltos grandes
-  scale += 1,5;
+  scale += 1;
 
   // Aplicamos la transformación
   yesBtn.style.transform = `scale(${scale})`;

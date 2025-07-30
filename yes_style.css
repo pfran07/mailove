@@ -1,10 +1,23 @@
-body {
-  background-color: #3BBEE3 ;
-  font-family: 'Comic Sans MS', bold, sans-serif;
-  text-align: center;
-  padding: 250px;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bold Text Example</title>
+  <style>
+    body {
+      background-color: #3BBEE3;
+      font-family: 'Comic Sans MS', sans-serif;
+      font-weight: bold; /* Negrita aplicada */
+      text-align: center;
+      padding: 250px;
+    }
 
-.message {
-  color: #1C43BA;
-}
+    .message {
+      color: #1C43BA;
+    }
+  </style>
+</head>
+<body>
+  <p class="message">This text is <strong>bold</strong> and blue!</p>
+</body>
+</html>
